@@ -25,7 +25,7 @@ source ~/.vim/config.vim
 "source ~/.vim/mappings.vim
 
 " Plugin-specific configuration.
-"source ~/.vim/plugins.vim
+source ~/.vim/plugins.vim
 
 " Small custom functions.
 "source ~/.vim/functions.vim
