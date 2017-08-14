@@ -12,6 +12,9 @@ filetype plugin indent on
 " Platform (Windows, Mac, etc.) configuration.
 "source ~/.vim/platforms.vim
 
+"" Plugin-specific configuration.
+source ~/.vim/plugins.vim
+
 " All of the Vim configuration.
 source ~/.vim/config.vim
 
@@ -20,9 +23,6 @@ source ~/.vim/config.vim
 
 " All hotkeys, not dependant on plugins, are mapped here.
 "source ~/.vim/mappings.vim
-
-" Plugin-specific configuration.
-source ~/.vim/plugins.vim
 
 " Small custom functions.
 "source ~/.vim/functions.vim

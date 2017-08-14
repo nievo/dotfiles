@@ -5,6 +5,7 @@
 "" Color ------------------------------
 set background=dark
 syntax enable
+colorscheme molokai
 
 " Force 256 color mode if available
 if $TERM =~ "-256color"
