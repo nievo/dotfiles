@@ -6,10 +6,7 @@
 " Version:	v0.1
 " ===========================================================
 
-" All of the plugins are installed with Vundle from this file.
-source ~/.vim/vundle.vim
-
-" Automatically detect file types. (must turn on after Vundle)
+" Automatically detect file types.
 filetype plugin indent on
 
 " Platform (Windows, Mac, etc.) configuration.
