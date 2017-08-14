@@ -12,8 +12,8 @@ if $TERM =~ "-256color"
 endif
 
 "" File locations ---------------------
-set backupdir=~/.vim/.backup
-set directory=~/.vim/.tmp
+set backupdir=~/.vim/backup
+set directory=~/.vim/tmp
 set spellfile=~/.vim/spell/custom.en.utf-8.add
 
 " Persistent Undo
