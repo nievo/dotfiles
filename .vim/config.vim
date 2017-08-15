@@ -42,7 +42,6 @@ set timeoutlen=450              " Time to wait for a command (e.g. after leader)
 set wildmenu                    " Turn on wildmenu
 
 "" UI ---------------------------------
-set cmdheight=2                 " Make the command area two lines high
 set cursorline                  " Highlight cursorline
 set laststatus=2                " Show the statusline
 set more                        "
@@ -93,8 +92,4 @@ set t_vb=
 "" Mouse ------------------------------
 set mouse=a                     " Enable mouse in all modes
 set mousehide                   " Hide mouse after characters typed
-
-
-
-
 

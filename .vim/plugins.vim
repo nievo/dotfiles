@@ -10,6 +10,13 @@ call plug#begin('~/.vim/plugged')
 " Colour schemes
 Plug 'tomasr/molokai'
 
+" Status / tab line
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'molokai'
+
 " PHP syntax
 Plug 'StanAngeloff/php.vim'
 let php_var_selector_is_identifier = 1    " Use same colour for dollar sign and variable name
