@@ -15,7 +15,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Colour schemes
-Plug 'tomasr/molokai'
+Plug 'arcticicestudio/nord-vim'
 
 " Status / tab line
 Plug 'vim-airline/vim-airline'
