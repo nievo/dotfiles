@@ -11,7 +11,9 @@
     ~/.dotfiles: ''
     ~/.vim: .vim
     ~/.vimrc: .vimrc
-    $XDG_CONFIG_HOME/bash: bash/config
+    $XDG_CONFIG_HOME/bash/aliases.bash: bash/config/aliases.bash
+    $XDG_CONFIG_HOME/bash/colours.bash: bash/config/colours.bash
+    $XDG_CONFIG_HOME/bash/dircolors: bash/vendor/nord/dircolors/src/dir_colors
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

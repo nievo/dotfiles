@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "bash/vendor/nord/dircolors"]
+	path = bash/vendor/nord/dircolors
+	url = https://github.com/arcticicestudio/nord-dircolors.git
