@@ -2,6 +2,8 @@
 
 set -e
 
+export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:=$HOME/.config}
+
 CONFIG="install.conf.yaml"
 DOTBOT_DIR="dotbot"
 

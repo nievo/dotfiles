@@ -6,9 +6,12 @@
 - clean: ['~', '~/.config']
 
 - link:
+    ~/.bash_profile: bash/.bash_profile
+    ~/.bashrc: bash/.bashrc
     ~/.dotfiles: ''
     ~/.vim: .vim
     ~/.vimrc: .vimrc
+    $XDG_CONFIG_HOME/bash: bash/config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
