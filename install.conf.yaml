@@ -17,6 +17,7 @@
     $XDG_CONFIG_HOME/bash/colours.bash: bash/config/colours.bash
     $XDG_CONFIG_HOME/bash/dircolors: bash/vendor/nord/dircolors/src/dir_colors
     $XDG_CONFIG_HOME/bash/env.bash: bash/config/env.bash
+    $XDG_CONFIG_HOME/tmux/tmux.conf: tmux/tmux.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
