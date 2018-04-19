@@ -9,11 +9,14 @@
     ~/.bash_profile: bash/.bash_profile
     ~/.bashrc: bash/.bashrc
     ~/.dotfiles: ''
-    ~/.vim: .vim
-    ~/.vimrc: .vimrc
+    $XDG_CONFIG_HOME/vim/vimrc: vim/vimrc
+    $XDG_CONFIG_HOME/vim/config.vim: vim/config.vim
+    $XDG_CONFIG_HOME/vim/plugins.vim: vim/plugins.vim
+    $XDG_CONFIG_HOME/vim/xdg.vim: vim/xdg.vim
     $XDG_CONFIG_HOME/bash/aliases.bash: bash/config/aliases.bash
     $XDG_CONFIG_HOME/bash/colours.bash: bash/config/colours.bash
     $XDG_CONFIG_HOME/bash/dircolors: bash/vendor/nord/dircolors/src/dir_colors
+    $XDG_CONFIG_HOME/bash/env.bash: bash/config/env.bash
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

@@ -1,9 +1,0 @@
-.DS_Store
-!.gitkeep
-
-/autoload/plug.vim
-/backup/*
-/plugged
-/sessions
-/tmp/*
-

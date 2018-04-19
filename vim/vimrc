@@ -1,0 +1,23 @@
+" ===========================================================
+" Vim configuration. 
+"
+" Author:	Olly Nevard
+" Source:	https://github.com/ollynevard/dotfiles
+" Version:	v0.1
+" ===========================================================
+
+" Automatically detect file types.
+filetype plugin indent on
+
+let $VIM_CONFIG_PATH = exists($XDG_CONFIG_HOME) ? $XDG_CONFIG_HOME.'/vim' : $HOME.'/.config/vim'
+
+source $VIM_CONFIG_PATH/xdg.vim
+
+set runtimepath=$VIM_CONFIG_PATH,$VIM_CONFIG_PATH/after,$VIM,$VIMRUNTIME
+
+"" Plugin-specific configuration.
+source $VIM_CONFIG_PATH/plugins.vim
+
+"" Vim configuration.
+source $VIM_CONFIG_PATH/config.vim
+

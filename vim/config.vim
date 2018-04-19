@@ -12,11 +12,6 @@ if $TERM =~ "-256color"
   set t_Co=256
 endif
 
-"" File locations ---------------------
-set backupdir=~/.vim/backup
-set directory=~/.vim/tmp
-set spellfile=~/.vim/spell/custom.en.utf-8.add
-
 " Persistent Undo
 if has('persistent_undo')
   set undofile
@@ -42,6 +37,7 @@ set timeoutlen=450              " Time to wait for a command (e.g. after leader)
 set wildmenu                    " Turn on wildmenu
 
 "" UI ---------------------------------
+set showcmd                     " Display current command
 set cursorline                  " Highlight cursorline
 set laststatus=2                " Show the statusline
 set more                        "
